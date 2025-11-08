@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsulteJá - Consulta de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>ConsulteJá</h1>
+        <p class="subtitle">Consulte informações de produtos pelo código de barras.</p>
+        
+        <div class="search-box">
+            <input type="text" id="barcode-input" placeholder="Digite o código de barras">
+            <button id="search-button">Consultar</button>
+        </div>
+        
+        <div id="message-area"></div>
+
+        <div id="result-area" class="hidden">
+            <img id="product-image" src="" alt="Imagem do Produto">
+            <h2 id="product-name"></h2>
+            <p id="product-price"></p>
+            <p id="product-description"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

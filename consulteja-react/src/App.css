@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.react-badge {
+    background-color: #61DAFB;
+    color: black;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.subtitle {
+    color: #5f6368;
+    margin-bottom: 30px;
+}
+
+/* Componente SearchBar */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Componente Message */
+.message {
+    margin: 20px 0;
+    font-weight: bold;
+    min-height: 24px;
+}
+.message.error {
+    color: #dc3545;
+}
+.message.loading {
+    color: #5f6368;
+}
+
+/* Componente ProductDisplay */
+.result-area {
+    margin-top: 20px;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-name {
+    margin: 0 0 10px 0;
+    color: #202124;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 0 0 15px 0;
+}
+
+.product-description {
+    color: #5f6368;
+    line-height: 1.6;
+}
